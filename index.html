@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dist/assets/fontawesome/all.min.css">
+    <link rel="stylesheet" href="dist/assets/css/bundle.css">
+
+    <title>Switchy Form v1 | Simple Login-Logout Form</title>
+</head>
+<body>
+
+    <div class="wrapper">
+
+        <!-- Content Wrapper Starts -->
+        <div class="content-wrapper">
+
+            <!-- User Login -->
+            <div class="user login-content">
+                <div class="img-container"><img src="dist/assets/images/backgrounds-2.png" alt=""></div>
+                <div class="form-container">
+                    <form action="#" method="post" id="loginFormID">
+                        <h2 class="form-title social">Login with your social media account</h2>
+                        <div class="social-accounts">
+                            <a href="#" class="social-icon facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon linkedin"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                        <h3 class="form-title username">Use your Username and Password</h3>
+                        <div class="form-group">
+                            <input type="text" name="username" id="userNameLogin" class="input-form" placeholder="Username">
+                            <div class="input-icon">
+                                <i class="fas fa-user user-icon"></i>
+                                <i class="fas fa-check-circle checkmark"></i>
+                                <i class="fas fa-exclamation-circle exclamation"></i>
+                            </div>
+                            <small class="error-message">Error Message</small>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" name="password" id="pwdLogin" class="input-form" placeholder="Password">
+                            <div class="input-icon">
+                                <i class="far fa-eye show-icon" id="showPwd"></i>
+                            </div>
+                            <small class="error-message">Error Message</small>
+                        </div>
+                        <div class="form-group-check">
+                            <label>
+                                <input type="checkbox" name="check-login" id="checkLogin" class="input-check">
+                                <span>
+                                    Keep me logged in
+                                </span>
+                                <i class="fas fa-exclamation-circle exclamation"></i>
+                                <i class="fas fa-check-circle checkmark"></i>
+                        </label>
+                        </div>
+                        <div class="form-group-btn">
+                            <input type="submit" class="input-submit" value="Login">
+                        </div>
+                        <p class="register-option">Don't have an account ?<a href="#" class="switchForms">Register now</a></p>
+                    </form>
+
+                    <div class="credit-text">
+                        <p class="copyright">Made with&nbsp;<i class="fas fa-heart"></i>&nbsp;by <a target="_blank" href="https://webthemevault.xyz">Web Theme Vault</a></p>
+                        <div class="follow-content">
+                            <p class="follow-links">Follow us</p>
+                            <div class="social-follow">
+                                <a target="_blank" href="https://facebook.com/webthemevault/" class="social-icon facebook"><i class="fab fa-facebook-f"></i></a>
+                                <a target="_blank" href="https://www.linkedin.com/in/pitshou-kalombo/" class="social-icon linkedin"><i class="fab fa-linkedin-in"></i></a>
+                                <a target="_blank" href="https://twitter.com/pikalombo" class="social-icon twitter"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- User Registration -->
+            <div class="user signup-content">
+                <div class="form-container">
+                    <form action="#" method="post" id="signupFormID">
+                        <h2 class="form-title">Register for FREE today</h2>
+                        <div class="form-group">
+                            <input type="text" name="username" id="userNameSignup" class="input-form" placeholder="Username">
+                            <div class="input-icon">
+                                <i class="fas fa-user user-icon"></i>
+                                <i class="fas fa-check-circle checkmark"></i>
+                                <i class="fas fa-exclamation-circle exclamation"></i>
+                            </div>
+                            <small class="error-message">Error Message</small>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" id="emailSignup" class="input-form" placeholder="Email Address">
+                            <div class="input-icon">
+                                <i class="fas fa-envelope user-icon"></i>
+                                <i class="fas fa-check-circle checkmark"></i>
+                                <i class="fas fa-exclamation-circle exclamation"></i>
+                            </div>
+                            <small class="error-message">Error Message</small>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" name="password" id="pwdSignup" class="input-form" placeholder="Create Password">
+                            <div class="input-icon">
+                                <i class="far fa-eye show-icon" id="signupShowPwd"></i>
+                            </div>
+                            <small class="error-message">Error Message</small>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" name="passwordR" id="RpwdSignup" class="input-form" placeholder="Confirm Password">
+                            <div class="input-icon">
+                                <i class="far fa-eye show-icon" id="signupShowPwdR"></i>
+                            </div>
+                            <small class="error-message">Error Message</small>
+                        </div>
+                        <div class="form-group-check">
+                            <label>
+                                <input type="checkbox" id="checkSignup" name="check-login" class="input-check">
+                                <span>
+                                    I Agree to the <a href="#">terms &amp; conditions</a>   
+                                </span>
+                                <i class="fas fa-exclamation-circle exclamation"></i>
+                                <i class="fas fa-check-circle checkmark"></i>
+                            </label>
+                            <small class="error-message-check">Error Message</small>
+                        </div>
+                        <div class="form-group-btn">
+                            <input type="submit" class="input-submit" value="Register">
+                        </div>
+                        <p class="login-option">Already have an account ?<a href="#" class="switchForms">Login now</a></p>
+                    </form>
+
+                    <div class="credit-text">
+                        <p class="copyright">Made with&nbsp;<i class="fas fa-heart"></i>&nbsp;by <a target="_blank" href="https://webthemevault.xyz">Web Theme Vault</a></p>
+                        <div class="follow-content">
+                            <p class="follow-links">Follow us</p>
+                            <div class="social-follow">
+                                <a target="_blank" href="https://facebook.com/webthemevault/" class="social-icon facebook"><i class="fab fa-facebook-f"></i></a>
+                                <a target="_blank" href="https://www.linkedin.com/in/pitshou-kalombo/" class="social-icon linkedin"><i class="fab fa-linkedin-in"></i></a>
+                                <a target="_blank" href="https://twitter.com/pikalombo" class="social-icon twitter"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container"><img src="dist/assets/images/backgrounds.png" alt=""></div>
+            </div>
+
+        </div>
+        <!-- Content wrapper ends -->
+
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="dist/assets/js/bundle.js"></script>
+</body>
+</html>
